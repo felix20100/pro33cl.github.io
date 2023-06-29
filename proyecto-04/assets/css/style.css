@@ -1,0 +1,76 @@
+/*Importando Fuentes de Google Fonts "Roboto"*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+/*Estilos del body   */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Colores background */
+/*-------------------*/
+
+.bg-verde {
+    background-color: #28a745;
+}
+
+.bg-crema{
+    background-color: #F8F9FA;
+}
+
+.bg-blanco {
+    background-color: #ffffff;
+}
+
+/*Colores textos     */
+/*-------------------*/
+
+.text-grisclaro{
+    color: #707070;
+}
+
+.text-grisoscuro{
+    color:#212529;
+}
+
+.text-verde{
+    color:#28A745;
+}
+
+.text-blanco {
+    color:#ffffff
+}
+
+/*Estilo Tamaños de texto especiales  */
+/*-------------------*/
+
+.fs-small {
+    font-size: small;
+}
+
+/*Estilos Secciones  */
+/*-------------------*/
+
+.card-width {
+    width: 278px;
+}
+
+.img-dimension{
+    width: 278px;
+    height: 180px;
+}
+
+.formulario {
+    height: 241px;
+    padding: 25px 21px 25px 21px;
+}
+
+.footer {
+    height: 118px;
+    padding: 24px 21px 24px 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+}
