@@ -1,6 +1,6 @@
 /* Estilos*/
-.portada{
-    height: 500px;
+.portada-section{
+    height: 550px;
     background-image: url(../imgs/bg-portada.jpg);
     display:flex;
     flex-direction: column;
@@ -8,26 +8,24 @@
     align-items: end;
 }
 
-.portada h1 {
+.portada-section h1 {
     font-size: 3rem;
     color: white;
     margin-right: 1rem;
 }
 
-.portada p {
+.portada-section p {
     font-size: 1rem;
     color: white;
     font-weight: bold;
     margin-right: 1rem;
 }
 
-.experiencia{
-    height: 400px;
-    background-color: white;  
+.exper-section{
+    height: 400px; 
 }
 
-.educacion{
-    height: 400px;
-    background-color:darkgray;
 
+.educ-section{
+    height: 400px;
 }
