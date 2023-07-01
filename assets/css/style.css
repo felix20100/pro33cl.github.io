@@ -1,0 +1,33 @@
+/* Estilos*/
+.portada{
+    height: 500px;
+    background-image: url(../imgs/bg-portada.jpg);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.portada h1 {
+    font-size: 3rem;
+    color: white;
+    margin-right: 1rem;
+}
+
+.portada p {
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.experiencia{
+    height: 400px;
+    background-color: white;  
+}
+
+.educacion{
+    height: 400px;
+    background-color:darkgray;
+
+}
