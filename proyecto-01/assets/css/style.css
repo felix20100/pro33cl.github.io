@@ -1,0 +1,101 @@
+/*CSS Estilos página principal*/
+
+/*Estilo body: ajusta el porcentaje de la pantalla que se ocupa*/
+body {
+    width:90%;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    color:darkslategrey;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*Estilo para los párrafos*/
+p {
+    margin: 0;
+    font-size: 100%;
+}
+
+/*Estilos del header */
+.header{
+    height: 5em;
+    background-image: url(../imgs/encabezado_03.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: left;
+    padding: 2em;
+}
+
+.header h1 {
+    margin: 0;
+    font-weight:normal;
+    font-size: 200%;
+}
+
+.header span {
+    margin: 0;
+    font-weight:bolder;
+    font-size: 120%;
+
+}
+
+.header h2 {
+    margin: 0;
+    font-weight:normal;
+    font-size: 100%;
+}
+
+.gallery {
+    background-color:beige;
+    padding: 2em 0 2em 0;
+}
+
+.gallery table{
+    width: 70%;
+    margin: auto;
+}
+
+.gallery img{
+    width:100%;
+    min-width: 7em;
+    border-radius: 1em;
+}
+
+.lugarTexto h3{
+    margin: 0 0 1em 0;
+    background-color:lightgray;
+    border-radius: 0.2em;
+    font-size: 100%;
+    padding: 0.5em 0 0.5em 2%;
+}
+
+p.lugarPaquete {
+    font-size: 80%;
+    font-weight:bolder;
+}
+
+p.lugarDescripcion {
+    text-align: justify;
+}
+
+p.lugarPrecio {
+    font-weight:bolder;
+}
+
+td {
+    margin: 0;
+    padding: 1em 0.2em 1em 0.2em;
+    text-align: left;
+    vertical-align: top;
+}
+
+.footer{
+    height: 2em;
+    background-color:darkslategray;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.footer p {
+    font-size: 90%;
+}

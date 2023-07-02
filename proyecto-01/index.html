@@ -4,52 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Catalogo Viajes</title>
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="assets/css/normalize.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
-    <h1>Curriculum Vitae</h1>
-    <img src="assets/img/foto_curriculum.jpeg" alt="Foto de Curriculum" height="200"/>
-    <h2>Héctor Rubilar</h2>
-    <h3>Resumen</h3>
-    <p>Programador Full Stack con conocimientos en las útimas tecnologías.</p> 
-    <p>Además, previamente me he desepeñado como ingeniero Civil en Obras Civiles.</p>
-    <h3>Datos Personales</h3>
-    <ul>
-        <li>Nombre Completo: Héctor Antonio Rubilar Valenzuela</li>
-        <li>Lugar de Nacimiento: Arica</li>
-        <li>Fecha de Nacimiento: 30/05/1985</li>
-        <li>Edad: 37 años</li>
-        <li>Telefono: +56993398843</li>
-    </ul>
-    <h3>Formación</h3>
-    <p>Titulado el año 2009 como Ingeniero Civil en Obras Civiles y me he desempeñado</p>
-    <p>en distintas áreas de la ingeniería, tales como: diseño estructural, hidraulica y caminos.</p>
-    <p>Actualmente soy programador full stack nivel junior sin experiencia, pero con motivación</p>
-    <p>y capacidad para aprender y desarrollar nuevas habilidades</p>
-    <h3>Conocimiento y habilidades relacionados al cargo que postula</h3>
-    <ol>
-        <li>Html</li>
-        <li>Css</li>
-        <li>Javascript</li>
-        <li>SQL</li>
-        <li>Proactividad</li>
-        <li>Autodidacta</li>
-        <li>Capacidad para aprender</li>
-    </ol>
-    <h3>Redes Sociales</h3>
-    <ul>
-        <li>
-            <a href="https://www.linkedin.com/in/hector-rubilar-bb8592252/">Linkedin</a>
-        </li>
-        <li>
-            <a href="https://www.facebook.com/hector.rubilarvalenzuela/">Facebook</a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/pro33cl/">Instagram</a>
-        </li>
-    </ul>
-    <h3>Portafolio</h3>
-    <a href="portafolio.html">Ingresa a mi portafolio aquí</a>
-    <p>Actualizado al 27-05-2023</p>
+    <!-- Encabezado de la página-->
+    <div class="header">
+        <h1>Turis<span>Mundo</span></h1>
+        <h2>Una agencia de viajes para ti</h2>
+    </div>
+    <!--Cuerpo de la página-->
+    <div class="gallery">
+        <table>
+            <tr class="lugar">
+                <td class="lugarFoto">
+                    <img src="assets/imgs/lugar_01.jpg" alt="Foto: Playa del Carmen"/>
+                </td>
+                <td class="lugarTexto">
+                    <h3>Playa del Carmen</h3>
+                    <p class="lugarPaquete">PAQUETE</p>
+                    <p class="lugarDescripcion">Playa del Carmen es uno de los sitios más visitados de la Riviera Maya y, en general, 
+                        del sureste mexicano. De modo que el turismo es la actividad económica más importante 
+                        de la localidad, haciendo al resto de la economía depender directa o indirectamente de 
+                        esta actividad. La ciudad es un destino turístico y también una conexión a otros atractivos 
+                        principalmente relacionados con el ecoturismo, el turismo de aventura y playas</p>
+                    <p class="lugarPrecio">Desde $350.000</p>
+                    <p>Todo incluído</p>
+                </td>
+            </tr>
+            <tr class="lugar">
+                <td class="lugarFoto">
+                    <img src="assets/imgs/lugar_02.jpg" alt="Foto: Archipiélago Fernando de Noronha"/>
+                </td>
+                <td class="lugarTexto">
+                    <h3>Archipiélago Fernando de Noronha</h3>
+                    <p class="lugarPaquete">PAQUETE</p>
+                    <p class="lugarDescripcion">Las playas de Fernando de Noronha se promocionan para el turismo y el buceo recreativo. 
+                        Debido a la Corriente Ecuatorial del Sur, que empuja el agua cálida de África a las islas, 
+                        el buceo a profundidades de 30 a 40 metros no requiere un traje de neopreno. La visibilidad 
+                        bajo el agua puede alcanzar los 50 metros.</p>
+                    <p class="lugarPrecio">Desde $450.000</p>
+                    <p>Todo incluído</p>
+                </td>
+            </tr>
+            <tr class="lugar">
+                <td class="lugarFoto">
+                    <img src="assets/imgs/lugar_03.jpg" alt="Foto: Portofino"/>
+                </td>
+                <td class="lugarTexto">
+                    <h3>Portofino</h3>
+                    <p class="lugarPaquete">PAQUETE</p>
+                    <p class="lugarDescripcion">Portofino es un pequeño pueblo de la región de Liguria, en el noroeste de Italia, conocida también
+                         como la Riviera Italiana. Es famoso por sus casas de colores pasteles, su mar azul intenso, la 
+                         fuerte presencia de turismo juvenil (y famosos), sus costas inundadas de lujosos yates y por su 
+                         belleza natural e histórica</p>
+                    <p class="lugarPrecio">Desde $550.000</p>
+                    <p>Todo incluído</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--Pie de la página-->
+    <div class="footer">
+        <p>Contacto:</p>
+        <p>@turismundo</p>
+    </div>
 </body>
 </html>

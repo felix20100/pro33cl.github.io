@@ -1,101 +1,178 @@
-/*CSS Estilos página principal*/
 
-/*Estilo body: ajusta el porcentaje de la pantalla que se ocupa*/
-body {
-    width:90%;
-    margin: 0 auto 0 auto;
-    background-color: white;
-    color:darkslategrey;
-    font-family:Arial, Helvetica, sans-serif;
-}
-/*Estilo para los párrafos*/
-p {
+/* Estilo página index*/
+
+/*Importando Fuente "Raleway" de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+*{
     margin: 0;
-    font-size: 100%;
+    padding: 0;
 }
 
-/*Estilos del header */
-.header{
-    height: 5em;
-    background-image: url(../imgs/encabezado_03.jpg);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    text-align: left;
-    padding: 2em;
+
+body {
+    font-family: 'Raleway', sans-serif;
+    width: 1280px;
+    margin: 0 auto 0 auto;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    height: 73px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header h1 {
     margin: 0;
-    font-weight:normal;
-    font-size: 200%;
+    padding: 0;
+    height: 59px;
+    font-size: 50px;
+    line-height: 59px;
 }
 
-.header span {
-    margin: 0;
-    font-weight:bolder;
-    font-size: 120%;
-
-}
-
-.header h2 {
-    margin: 0;
-    font-weight:normal;
-    font-size: 100%;
-}
-
-.gallery {
-    background-color:beige;
-    padding: 2em 0 2em 0;
-}
-
-.gallery table{
-    width: 70%;
-    margin: auto;
-}
-
-.gallery img{
-    width:100%;
-    min-width: 7em;
-    border-radius: 1em;
-}
-
-.lugarTexto h3{
-    margin: 0 0 1em 0;
-    background-color:lightgray;
-    border-radius: 0.2em;
-    font-size: 100%;
-    padding: 0.5em 0 0.5em 2%;
-}
-
-p.lugarPaquete {
-    font-size: 80%;
-    font-weight:bolder;
-}
-
-p.lugarDescripcion {
-    text-align: justify;
-}
-
-p.lugarPrecio {
-    font-weight:bolder;
-}
-
-td {
-    margin: 0;
-    padding: 1em 0.2em 1em 0.2em;
+.textoMedium{
     text-align: left;
-    vertical-align: top;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+    opacity: 1;
 }
 
-.footer{
-    height: 2em;
-    background-color:darkslategray;
-    color: white;
-    text-align: center;
-    padding: 1em;
+.textoLight{
+    text-align: left;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.mainImagenGrande {
+    height: 727px;
+    background-image: url(../imgs/bg-header.jpg);
+}
+
+.formatoImagen {
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-size: cover;
+    opacity: 1;
+}
+
+.mainDescripcion {
+    width: 980px;
+    height: 348px;
+    margin: 0 auto 0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descripcion_01 {
+    width: 475px;
+    height: 197px;
+}
+
+.descripcion_01 p {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.descripcion_02{
+    width: 399px;
+    height: 237px;
+    background-image: url(../imgs/iguana-1.jpg);
+}
+
+.mainCaracteristicas{
+    height: 348px;
+    opacity: 0.98;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fondoGris{
+    background-color: #1E1A13;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+}
+
+.mainCaracteristicas h2 {
+    padding: 0;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.caracteristicasIconos {
+    width: 790px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.caracteristicasIconos p {
+    margin-top: 16px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.caracteristica {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainGalleria {
+    height: 348px;
+    width: 980px;
+    margin: 0 auto 0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.galleria {
+    width: 316px;
+    height: 202px;
+}
+
+.foto_01{
+    background-image: url(../imgs/iguana-2.jpg);
+}
+
+.foto_02{
+    background-image: url(../imgs/iguana-3.jpg);
+}
+
+.foto_03{
+    background-image: url(../imgs/iguana-4.jpg);
+}
+
+.footer {
+    height: 102px;
+    opacity: 0.94;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer p {
-    font-size: 90%;
+    font-size: 20px;
+    line-height: 24px;
 }

@@ -1,178 +1,76 @@
+/*Importando Fuentes de Google Fonts "Roboto"*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 
-/* Estilo página index*/
-
-/*Importando Fuente "Raleway" de Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
+/*Estilos del body   */
 
 body {
-    font-family: 'Raleway', sans-serif;
-    width: 1280px;
-    margin: 0 auto 0 auto;
-    background-color: black;
-    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
-.header {
-    height: 73px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/*Colores background */
+/*-------------------*/
+
+.bg-verde {
+    background-color: #28a745;
 }
 
-.header h1 {
-    margin: 0;
-    padding: 0;
-    height: 59px;
-    font-size: 50px;
-    line-height: 59px;
+.bg-crema{
+    background-color: #F8F9FA;
 }
 
-.textoMedium{
-    text-align: left;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    letter-spacing: 0px;
-    opacity: 1;
+.bg-blanco {
+    background-color: #ffffff;
 }
 
-.textoLight{
-    text-align: left;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 300;
-    letter-spacing: 0px;
-    opacity: 1;
+/*Colores textos     */
+/*-------------------*/
+
+.text-grisclaro{
+    color: #707070;
 }
 
-.mainImagenGrande {
-    height: 727px;
-    background-image: url(../imgs/bg-header.jpg);
+.text-grisoscuro{
+    color:#212529;
 }
 
-.formatoImagen {
-    background-color: transparent;
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    background-origin: padding-box;
-    background-size: cover;
-    opacity: 1;
+.text-verde{
+    color:#28A745;
 }
 
-.mainDescripcion {
-    width: 980px;
-    height: 348px;
-    margin: 0 auto 0 auto;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.text-blanco {
+    color:#ffffff
 }
 
-.descripcion_01 {
-    width: 475px;
-    height: 197px;
+/*Estilo Tamaños de texto especiales  */
+/*-------------------*/
+
+.fs-small {
+    font-size: small;
 }
 
-.descripcion_01 p {
-    font-size: 16px;
-    line-height: 19px;
+/*Estilos Secciones  */
+/*-------------------*/
+
+.card-width {
+    width: 278px;
 }
 
-.descripcion_02{
-    width: 399px;
-    height: 237px;
-    background-image: url(../imgs/iguana-1.jpg);
+.img-dimension{
+    width: 278px;
+    height: 180px;
 }
 
-.mainCaracteristicas{
-    height: 348px;
-    opacity: 0.98;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.fondoGris{
-    background-color: #1E1A13;
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    background-origin: padding-box;
-}
-
-.mainCaracteristicas h2 {
-    padding: 0;
-    font-size: 40px;
-    line-height: 47px;
-}
-
-.caracteristicasIconos {
-    width: 790px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-}
-
-.caracteristicasIconos p {
-    margin-top: 16px;
-    font-size: 25px;
-    line-height: 30px;
-}
-
-.caracteristica {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.mainGalleria {
-    height: 348px;
-    width: 980px;
-    margin: 0 auto 0 auto;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.galleria {
-    width: 316px;
-    height: 202px;
-}
-
-.foto_01{
-    background-image: url(../imgs/iguana-2.jpg);
-}
-
-.foto_02{
-    background-image: url(../imgs/iguana-3.jpg);
-}
-
-.foto_03{
-    background-image: url(../imgs/iguana-4.jpg);
+.formulario {
+    height: 241px;
+    padding: 25px 21px 25px 21px;
 }
 
 .footer {
-    height: 102px;
-    opacity: 0.94;
-    display:flex;
+    height: 118px;
+    padding: 24px 21px 24px 21px;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
-}
-
-.footer p {
-    font-size: 20px;
-    line-height: 24px;
+    align-content: center;
 }
