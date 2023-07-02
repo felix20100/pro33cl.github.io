@@ -22,21 +22,21 @@
 }
 
 main h2 {
-    color:gray;
+    color:dimgray;
     font-size: 2rem;
-    font-weight:bold;
+    font-weight:normal;
 }
 
 main h3 {
-    color:gray;
+    color:dimgray;
     font-size: 1.7rem;
-    font-weight:bolder;
+    font-weight:normal;
 }
 
 main h4 {
-    color:darkgray;
+    color:gray;
     font-size: 0.8rem;
-    font-weight:bold;
+    font-weight:normal;
 }
 
 main p {
